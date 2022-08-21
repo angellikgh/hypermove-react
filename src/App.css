@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+body {
+  background: #141415;
+  font-family: 'Montserrat';
+  overflow-x:hidden;
+}
+
+
+nav.main-menu {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  
+}
+
+nav.main-menu a:link, .dropdown .nav-item .show{
+  color: #fff !important;
+  font-weight: 300;
+}
+
+nav.main-menu .dropdown-menu a.dropdown-item {
+  color: #141415 !important;
+}
+
+nav.main-menu .dropdown-menu .dropdown-item a:hover{
+  background-color: #6C02D7;
+}
+
+
+
+.purple-btn {
+  padding: 10px;
+  gap: 10px;
+  background: #6C02D7;
+  border-radius: 30px;
+  font-weight: 300;
+  transition: 0.8s;
+}
+
+@media (max-width: 800px) {
+  .purple-btn {
+    font-size: 12px !important;
+  }
+}
+
+.purple-btn:hover {
+  background: #6C02D7;
+  box-shadow: 0px 0px 20px rgba(196, 1, 215, 0.6);
+  transition: 0.6s;
+}
+
+.sm-purple-btn{
+  padding: 5px 20px;
+  gap: 10px;
+  font-size: 14px;
+  
+}
+
+@font-face {
+  font-family: "PrStart";
+  src: local("PrStart"),
+   url("./fonts/PrStart.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+.font-prstart, .section-heading, .brand-marquee, .sneaker, .team-section .member-name, .quarter, .year{
+  font-family: "PrStart";
+}
+
+
+h1.hero-main-heading{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 80px;
+line-height: 98px;
+
+color: #FFFFFF;
+}
+
+.hero-mobile, .hero-img{
+  position: relative;
+  z-index: 1;
+}
+
+
+.hero{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url('../public/assets/images/hero-bg.png');
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-position: right center;
+  }
+
+  .dark-btn{
+    background: #000000;
+border-radius: 30px;
+padding: 5px 30px;
+gap: 10px;
+border: none;
+color:#6C02D7;
+  }
+
+  .dark-btn:hover{
+    background: #6C02D7;
+border-radius: 30px;
+padding: 5px 30px;
+gap: 10px;
+border: none;
+color:#000000;
+  }
+
+  .brand-marquee{
+   
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 42px;
+  }
+
+.purple-text{
+  color:#6C02D7;
+  padding: 1px;
+}
+
+.google-map{
+  width: 100%;
+  height: 243px;
+}
+
+.section-heading{
+  font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+text-transform: uppercase;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.section p{
+  font-style: normal;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.simple-text{
+  padding: 10px 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.avatar{
+  position: relative;
+  height: 650px;
+}
+
+.avatar-section{
+  background-image: url('../public/assets/images/hero-bg.png');
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-position: right center;
+  background-size: 50%;
+}
+
+img.appScreen{
+  max-width: 20vw;
+}
+
+.app-slider{
+  padding: 0 !important;
+  background-image: url('../public/assets/images/app-screens-bg.png');
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-position: center center;
+  background-size: 50%;
+}
+
+.activities-group {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url('../public/assets/images/group-bg.png');
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-position: left center;
+  background-size: 70%; 
+}
+
+.gMap div{
+  border-radius: 15px !important;
+}
+
+
+
+.map-container {
+  height: 400px;
+  }
+
+  .icon-btn, .icon-btn:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+  .icon-btn span svg{
+    width: 4rem !important;
+    height: 4rem !important;
+    fill: #6C02D7;
+    stroke: #6C02D7;
+    stroke-width: 20 !important;
+  }
+
+  #header-shape-gradient {
+    --color-stop: #f12c06;
+    --color-bot: #faed34;
+  }
+
+  .icon-holder{
+    
+    padding: calc(20px + 10 * (100vw - 320px) / 1080);
+    position: relative;
+  }
+
+  .icon-holder:before{
+    
+      content: '';
+      transform: scale(0.6);
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: radial-gradient(rgba(108,2,215,0.08),transparent 70%);
+      width: 100%;
+      height: 100%;
+  
+  }
+
+  .mapboxgl-ctrl .mapboxgl-ctrl-attrib .mapboxgl-compact{
+    display: none !important;
+  }
+
+  .hypergame-bg{
+    padding: 0px;
+    /* backdrop-filter: blur(20px); */
+    background-image: url('../public/assets/images/games-slides-bg.png');
+    background-position: center center;
+    background-size: cover;
+   border-radius: 25px;
+    /* -webkit-filter: drop-shadow(0px 0px 40px rgba(143, 0, 255, 0.4)); */
+  }
+
+  .slides-wrapper{
+    backdrop-filter: blur(10px);
+   padding: 40px;
+    
+
+  }
+
+  .slides-container{
+    background-image: url('../public/assets/images/games-slides-bg.png');
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 40px;
+    position: relative;
+    /* height: 30vh; */
+  }
+  
+
+  .navbar-toggler, .navbar-toggler-icon{
+    color: #fff !important;
+  }
+
+  .game-slides{
+/* position: absolute; */
+    min-width: 140px;
+  }
+
+  .game-card{
+    background: rgba(39, 39, 39, 0.2);
+border: 1px solid #515151;
+/* backdrop-filter: blur(20px); */
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+  }
+
+
+  .like-btn{
+    background: #222121;
+border-radius: 5px;
+color: #04FDA3;
+  }
+
+  .sneakers-section{
+    margin-top: 10vh;
+    padding: 0 !important;
+  background-image: url('../public/assets/images/sneaker-bg.png');
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-position: left center;
+  background-size: 60%; 
+  }
+
+
+  .team-section .member-name{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;    
+    color: #EBE8E8;
+  }
+
+
+  .team-section .designation{
+    color: #727272;
+    font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+
+  }
+
+  .team-section{
+    position: relative;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    background-image: url('../public/assets/images/team-bg.png');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+
+
+.quarter, .year{
+font-size: 14px;
+  }
+
+  .time{
+    max-width: 150px;
+    padding: 40px 5px;
+    background: linear-gradient(64.97deg, #6C02D7 9.96%, #C602D7 84.15%);
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .timeline{
+    /* height: 4px; */
+    background: #424242;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: none;
+    
+  }
+
+  .roadmap-list{
+    background-color: #000;
+    padding: 20px 10px;
+    list-style: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .roadmap-list li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+
+  .roadmap-section{
+    position: relative;
+  padding: 10vh;
+  background-image: url('../public/assets/images/timeline-bg-light.png');
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-position: center center;
+  background-size: cover
+   
+  }
+
+  .roadmap-section::before{
+content: '';
+width: 100%;
+height: 100%;
+top:0;
+left:0;
+background-color: rgba(0,0,0,0.8);
+z-index: 0;
+/* position: absolute; */
+  }
+
+  .roadmap-section .container{
+    position: relative;
+    z-index: 1;
+  }
+
+  .partners-section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  .partner-logos img{
+    max-width: 120px;
+    height: auto;
+   
+  }
+
+  .game-title{
+    font-family: 'Nunito Sans';
+font-style: normal;
+/* font-weight: 800; */
+font-size: 14px;
+line-height: 90.4%;
+  }
+
+.hero .social-buttons {
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.hero .min-width-100 {
+  min-width: 155px;
+}
+
+@media (max-width: 991px) {
+  .hero-main-heading {
+    font-size: 60px !important;
+  }
+
+  .hyper-slides-container .slides-wrapper{
+    padding: 15px !important;
+  }
+
+  .hyper-slides-container .slides-container {
+    padding: 15px !important;
+  }
+}
+
+.hypergames {
+  justify-content: space-around;
+  flex-wrap: wrap;    
+}
+
+.mapboxgl-control-container {
+  display: none;
+}
+
+.swiper-slide img{
+  min-width: 150px;
+  min-height: 300px;
+}
