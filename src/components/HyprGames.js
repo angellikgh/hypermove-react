@@ -5,10 +5,6 @@ import Row from 'react-bootstrap/Row';
 import GameSlide from './GameSlide';
 import { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow, Autoplay   } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-  import 'swiper/css/pagination';
-  import 'swiper/css/autoplay';
 
 import SocialBtn from './SocialBtn';
 

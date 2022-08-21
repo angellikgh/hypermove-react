@@ -7,7 +7,7 @@ const SneakerSingle = (props) => {
 
   return(
     <div className="text-center text-white sneaker">
-    <Image class="img-fluid" src={props.src}></Image>
+    <Image className="img-fluid" src={props.src}></Image>
     <h4>{props.title}</h4>
     </div>
       )

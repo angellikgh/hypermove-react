@@ -14,7 +14,7 @@ import GoogleMapCard from './components/GoogleMapCard';
 import MoveCard from './components/MoveCard';
 import GameCard from './components/GameCard';
 import LeaderBoardCard from './components/LeaderboardCard';
-import AvatarTransition from './components/AvatarTransition';
+// import AvatarTransition from './components/AvatarTransition';
 import AppSlider from './components/AppSlider';
 import MapBoxMap from './components/MapBoxMap';
 import AboutUs from './components/AboutUs';
@@ -55,7 +55,7 @@ const App = () => {
           </Col>
           <Col md={12} xl={6}>
             <div className='avatar'>
-              <AvatarTransition className="avatar-3d"/>
+              {/* <AvatarTransition className="avatar-3d"/> */}
             </div>
           </Col>
           
@@ -226,9 +226,5 @@ const App = () => {
     </div>
   );
 }
-
-const appRoot = createRoot(document.getElementById('root'));;
-
-appRoot.render(<App />);
 
 export default App;

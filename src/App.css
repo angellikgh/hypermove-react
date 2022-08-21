@@ -87,7 +87,7 @@ color: #FFFFFF;
 .hero{
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-image: url('../public/assets/images/hero-bg.png');
+  background-image: url('/public/assets/images/hero-bg.png');
   background-repeat: no-repeat;
   z-index: 0;
   background-position: right center;
@@ -157,7 +157,7 @@ padding-bottom: 10px;
 }
 
 .avatar-section{
-  background-image: url('../public/assets/images/hero-bg.png');
+  background-image: url('/public/assets/images/hero-bg.png');
   background-repeat: no-repeat;
   z-index: 0;
   background-position: right center;
@@ -170,7 +170,7 @@ img.appScreen{
 
 .app-slider{
   padding: 0 !important;
-  background-image: url('../public/assets/images/app-screens-bg.png');
+  background-image: url('/public/assets/images/app-screens-bg.png');
   background-repeat: no-repeat;
   z-index: 0;
   background-position: center center;
@@ -180,7 +180,7 @@ img.appScreen{
 .activities-group {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-image: url('../public/assets/images/group-bg.png');
+  background-image: url('/public/assets/images/group-bg.png');
   background-repeat: no-repeat;
   z-index: 0;
   background-position: left center;
@@ -240,7 +240,7 @@ img.appScreen{
   .hypergame-bg{
     padding: 0px;
     /* backdrop-filter: blur(20px); */
-    background-image: url('../public/assets/images/games-slides-bg.png');
+    background-image: url('/public/assets/images/games-slides-bg.png');
     background-position: center center;
     background-size: cover;
    border-radius: 25px;
@@ -255,7 +255,7 @@ img.appScreen{
   }
 
   .slides-container{
-    background-image: url('../public/assets/images/games-slides-bg.png');
+    background-image: url('/public/assets/images/games-slides-bg.png');
     background-position: center center;
     background-size: cover;
     border-radius: 15px;
@@ -293,7 +293,7 @@ color: #04FDA3;
   .sneakers-section{
     margin-top: 10vh;
     padding: 0 !important;
-  background-image: url('../public/assets/images/sneaker-bg.png');
+  background-image: url('/public/assets/images/sneaker-bg.png');
   background-repeat: no-repeat;
   z-index: 0;
   background-position: left center;
@@ -324,7 +324,7 @@ line-height: 10px;
     position: relative;
     padding-top: 10vh;
     padding-bottom: 20vh;
-    background-image: url('../public/assets/images/team-bg.png');
+    background-image: url('/public/assets/images/team-bg.png');
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -371,7 +371,7 @@ font-size: 14px;
   .roadmap-section{
     position: relative;
   padding: 10vh;
-  background-image: url('../public/assets/images/timeline-bg-light.png');
+  background-image: url('/public/assets/images/timeline-bg-light.png');
   background-repeat: no-repeat;
   z-index: 0;
   background-position: center center;
@@ -449,4 +449,8 @@ line-height: 90.4%;
 .swiper-slide img{
   min-width: 150px;
   min-height: 300px;
+}
+
+.author {
+  font-size: 1rem !important;
 }

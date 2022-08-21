@@ -12,7 +12,7 @@ return(
 <span> {props.text}</span>
 </Button>
 
-<Image src='./assets/images/Rankings.png' classname="img-fluid" style={{ width: '100%' }} />
+<Image src='./assets/images/Rankings.png' className="img-fluid" style={{ width: '100%' }} />
 
 </>
 

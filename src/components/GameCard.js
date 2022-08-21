@@ -1,22 +1,16 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import Image from 'react-bootstrap/Image'
-
+import CubeRun from './CubeRun';
 
 const GameCard = (props) => {
-
-return(
-  <>
-
-<Button className={props.className} onClick={props.onClick}>
-<span> {props.text}</span>
-</Button>
-
-<Image src='./assets/images/game.png' className='img-fluid'/>
-
-</>
-
-    )
+  return (
+    <div className='position-relative'>
+      <Button className={props.className} onClick={props.onClick}>
+        <span>{props.text}</span>
+      </Button>
+      <CubeRun bgColor='#141622' />
+    </div>
+  )
 }
 
-    export default GameCard;
+export default GameCard;
